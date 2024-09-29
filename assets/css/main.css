@@ -3907,3 +3907,15 @@ input, select, textarea {
 			}
 
 		}
+
+<style>
+  p {
+    color: white;
+  }
+  .pa1 {
+    font-size: 20px;
+  }
+  .pa2 {
+    font-size: 13px;
+  }
+</style>
