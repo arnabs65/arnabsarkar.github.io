@@ -3877,9 +3877,10 @@ input, select, textarea {
 		background-image: url("images/1e0657.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-color: black; /* Set a black background Arnab*/
+		background-size: auto; /* Maintain original image size Arnab */
 		background-position: center; /* Arnab */
-		animation: slide 16s infinite; /* Run animation Arnab*/
+		animation: slide 30s infinite; /* Run animation Arnab*/
 	}
 
 	/* Animation for background images */
