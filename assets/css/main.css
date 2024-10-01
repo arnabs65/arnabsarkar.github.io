@@ -3874,10 +3874,31 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/1e0657.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		background-position: center; /* Arnab */
+		animation: slide 16s infinite; /* Run animation Arnab*/
+	}
+
+	/* Animation for background images */
+	@keyframes slide {
+	    0% {
+	        background-image: url("images/a1689.jpg");
+	    }
+	    25% {
+	        background-image: url("images/James-Webb-Space-Telescope-1.jpg");
+	    }
+	    50% {
+	        background-image: url("images/Stephans-Quintet.jpg");
+	    }
+	    75% {
+	        background-image: url("images/potm2209b.jpg");
+	    }
+	    100% {
+	        background-image: url("images/1e0657.jpg"); /* Loop back to the first image */
+	    }
 	}
 
 		#intro p {
