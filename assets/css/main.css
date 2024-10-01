@@ -3879,8 +3879,8 @@ input, select, textarea {
 		    background-repeat: no-repeat;
 		    background-position: center;
 		    background-size: contain; /* Keep the original image size without stretching Arnab*/
-		    animation: slide 40s linear infinite; /* Loop animation Arnab*/
-		    transition: background-image 5s ease-in-out; /* Smooth transition Arnab*/
+		    animation: slide 60s linear infinite; /* Loop animation Arnab*/
+		    transition: background-image 1s ease-in-out; /* Smooth transition Arnab*/
 		}
 
 	/* Animation for background images */
