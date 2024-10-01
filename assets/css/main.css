@@ -3880,7 +3880,7 @@ input, select, textarea {
 		    background-position: center;
 		    background-size: contain; /* Keep the original image size without stretching Arnab*/
 		    animation: slide 120s linear infinite; /* Loop animation Arnab*/
-		    transition: background-image 0.05s linear; /* Smooth transition Arnab*/
+		    transition: background-image 5s linear; /* Smooth transition Arnab*/
 		}
 
 	/* Animation for background images */
