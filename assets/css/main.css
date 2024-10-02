@@ -3872,16 +3872,27 @@ input, select, textarea {
 
 /* Intro */
 
+	#slideshow-box {
+    width: 600px; /* Set the width of the box */
+    height: 400px; /* Set the height of the box */
+    margin: 50px auto; /* Center the box horizontally */
+    overflow: hidden; /* Hide overflow to keep images contained */
+    position: relative;
+    background-color: black; /* Background color for the box */
+	}
+
 	#intro {
-			height: 100vh;
-		    background-attachment: fixed;
-		    background-color: black; /* Set a black background Arnab*/
-		    background-repeat: no-repeat;
-		    background-position: center;
-		    background-size: contain; /* Keep the original image size without stretching Arnab*/
-		    animation: slide 120s linear infinite; /* Loop animation Arnab*/
-		    transition: background-image 0s linear; /* Smooth transition Arnab*/
-		}
+	    height: 100%;
+	    width: 100%;
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: contain; /* Maintain original image size */
+	    animation: slide 50s linear infinite; /* Total animation duration */
+	    transition: background-image 2s ease-in-out; /* Smooth transition */
+	    position: absolute; /* Position it absolutely within the container */
+	}
+
 
 	/* Animation for background images */
 		@keyframes slide {
