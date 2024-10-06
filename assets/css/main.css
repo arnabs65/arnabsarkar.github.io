@@ -3873,46 +3873,26 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-	    display: flex; /* Use Flexbox to align images side by side */
-	    justify-content: center; /* Center images horizontally */
-	    align-items: center; /* Center images vertically */
-	    height: 100vh; /* Full height of the viewport */
-	    overflow: hidden; /* Hide overflow if any */
-	}
-
-	/* Shared styles for each image */
-	.image {
-	    flex: 1; /* Each image will take equal space */
-	    height: 100%; /* Image should take the full height */
-	    width: 20%; /* Each image takes one-sixth of the width */
-	    background-size: cover; /* Ensure the image covers the container */
-	    background-repeat: no-repeat; /* No repeating */
-	    background-position: center; /* Center the image within the div */
-	    background-color: black
-	}
-
-		/* Individual image background settings */
-		.image1 {
-		    background-image: url("images/a1689.jpg");
+		    height: 100vh;
+		    display: grid; /* Use grid layout */
+		    grid-template-columns: repeat(5, 1fr); /* Six equal columns */
+		    grid-template-rows: 1fr; /* Single row */
 		}
 
-		.image2 {
-		    background-image: url("images/James-Webb-Space-Telescope-1.jpg");
-		}
 
-		.image3 {
-		    background-image: url("images/Stephans-Quintet.jpg");
-		}
+		#intro div {
+				    background-size: cover; /* Make background images cover each div */
+				    background-position: center; /* Center the image */
+				    background-color: black;
+				}
 
-		.image4 {
-		    background-image: url("images/potm2209b.jpg");
-		}
 
-		.image5 {
-		    background-image: url("images/1e0657.jpg");
-		}
-
-		
+		/* Define each image to be used in the grid */
+		#intro .image1 { background-image: url("images/a1689.jpg"); }
+		#intro .image2 { background-image: url("images/James-Webb-Space-Telescope-1.jpg"); }
+		#intro .image3 { background-image: url("images/Stephans-Quintet.jpg"); }
+		#intro .image4 { background-image: url("images/potm2209b.jpg"); }
+		#intro .image5 { background-image: url("images/1e0657.jpg"); }
 
 
 		#intro p {
