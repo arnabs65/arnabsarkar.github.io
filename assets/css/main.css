@@ -3873,26 +3873,21 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		    height: 100vh;
-		    display: grid; /* Use grid layout */
-		    grid-template-columns: repeat(5, 1fr); /* Six equal columns */
-		    grid-template-rows: 1fr; /* Single row */
-		}
+		background-attachment: fixed;
+		background-image: url("images/James-Webb-Space-Telescope-1.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
 
-
-		#intro div {
-				    background-size: cover; /* Make background images cover each div */
-				    background-position: center; /* Center the image */
-				    background-color: black;
-				}
 
 
 		/* Define each image to be used in the grid */
-		#intro .image1 { background-image: url("images/a1689.jpg"); }
-		#intro .image2 { background-image: url("images/James-Webb-Space-Telescope-1.jpg"); }
-		#intro .image3 { background-image: url("images/Stephans-Quintet.jpg"); }
-		#intro .image4 { background-image: url("images/potm2209b.jpg"); }
-		#intro .image5 { background-image: url("images/1e0657.jpg"); }
+		/*#intro .image1 { background-image: url("images/a1689.jpg"); }*/
+		/*#intro .image2 { background-image: url("images/James-Webb-Space-Telescope-1.jpg"); }*/
+		/*#intro .image3 { background-image: url("images/Stephans-Quintet.jpg"); }*/
+		/*#intro .image4 { background-image: url("images/potm2209b.jpg"); }*/
+		/*#intro .image5 { background-image: url("images/1e0657.jpg"); }*/
 
 
 		#intro p {
