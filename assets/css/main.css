@@ -3893,7 +3893,6 @@ input, select, textarea {
 	    background-repeat: no-repeat;
 	    background-size: contain;
 	    opacity: 0.7; /* Set the opacity value as needed */
-	    z-index: 1; /* Ensure it stays behind the text */
 	}
 
 
@@ -3907,7 +3906,6 @@ input, select, textarea {
 
 		#intro p {
 		    position: relative;
-		    z-index: 2; /* Text should appear above the background image */
 		    font-size: 1.25em;
 		    color: white;
 		}
