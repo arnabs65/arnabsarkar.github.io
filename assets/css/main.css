@@ -3875,7 +3875,7 @@ input, select, textarea {
 	#intro {
 	    height: 100vh;
 	    width: 100vw;
-	    position: relative;
+	    position: center;
 	    background-color: black;
 	    overflow: hidden;  /* Ensure the content does not spill out */
 	}
