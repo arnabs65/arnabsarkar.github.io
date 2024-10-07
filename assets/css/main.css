@@ -3888,11 +3888,11 @@ input, select, textarea {
 	    width: 100vw;
 	    position: relative;
 	    background-color: black;
-	    background-image: url("images/James-Webb-Space-Telescope-1.jpg");
+	    background-image: url("images/jwst_image_5.jpeg");
 	    background-position: center center;
 	    background-repeat: no-repeat;
 	    background-size: contain;
-	    opacity: 0.3; /* Set the opacity value as needed */
+	    opacity: 0.7; /* Set the opacity value as needed */
 	    z-index: 1; /* Ensure it stays behind the text */
 	}
 
