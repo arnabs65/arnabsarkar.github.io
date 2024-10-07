@@ -3899,7 +3899,7 @@ input, select, textarea {
 	    width: 100%;
 	    height: 100%;
 	    background-image: url("images/jwst_image_5.jpeg");
-	    background-position: center;
+	    background-position: center center;
 	    background-repeat: no-repeat;
 	    background-size: contain;
 	    opacity: 0.5; /* Set the opacity value as needed */
