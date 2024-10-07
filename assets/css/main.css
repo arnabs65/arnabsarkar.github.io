@@ -3872,10 +3872,21 @@ input, select, textarea {
 
 /* Intro */
 
+	/*#intro {
+		height: 100vh;
+		width: 100vw;
+		background-attachment: fixed;
+		background-image: url("images/jwst_image_5.jpeg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: black;
+	}*/
+
 	#intro {
 	    height: 100vh;
 	    width: 100vw;
-	    position: center;
+	    position: relative;
 	    background-color: black;
 	    overflow: hidden;  /* Ensure the content does not spill out */
 	}
@@ -3891,10 +3902,9 @@ input, select, textarea {
 	    background-position: center;
 	    background-repeat: no-repeat;
 	    background-size: contain;
-	    opacity: 0.3; /* Set the opacity value as needed */
+	    opacity: 0.5; /* Set the opacity value as needed */
 	    z-index: 1; /* Ensure it stays behind the text */
 	}
-
 
 
 		/* Define each image to be used in the grid */
@@ -3906,7 +3916,10 @@ input, select, textarea {
 
 
 		#intro p {
-			font-size: 1.25em;
+		    position: relative;
+		    z-index: 2; /* Text should appear above the background image */
+		    font-size: 1.25em;
+		    color: white;
 		}
 
 			@media screen and (max-width: 980px) {
