@@ -3891,7 +3891,7 @@ input, select, textarea {
 	    background-position: center;
 	    background-repeat: no-repeat;
 	    background-size: contain;
-	    opacity: 0.5; /* Set the opacity value as needed */
+	    opacity: 0.3; /* Set the opacity value as needed */
 	    z-index: 1; /* Ensure it stays behind the text */
 	}
 
