@@ -3888,10 +3888,6 @@ input, select, textarea {
 	    width: 100vw;
 	    position: relative;
 	    background-color: black;
-	    overflow: hidden;  /* Ensure the content does not spill out */
-	}
-
-	#intro::before {
 	    background-image: url("images/jwst_image_5.jpeg");
 	    background-position: center center;
 	    background-repeat: no-repeat;
