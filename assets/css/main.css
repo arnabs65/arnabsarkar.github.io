@@ -3881,6 +3881,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-color: black;
+		opacity: 0.5;
 	}
 
 
