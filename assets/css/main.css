@@ -3919,7 +3919,7 @@ input, select, textarea {
 	/* This sets the image the overlay on the background */
 	#intro:before {
 		background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("images/overlay.png");
-		background-size: auto, 2000px 1623px;
+		background-size: cover;
 		background-position: center, center;
 		background-repeat: no-repeat, no-repeat;
 		/* This sets the order of rendering. This will sit on top of all elements with z-index < 2 */
