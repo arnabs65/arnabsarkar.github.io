@@ -3203,7 +3203,6 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		z-index: 10000; /* Arnab */
 	}
 
 		.wrapper > .inner {
@@ -3882,7 +3881,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-color: black;
-	}
+	}*/
 
 	#intro {
 	    height: 100vh;
@@ -3893,49 +3892,16 @@ input, select, textarea {
 	    background-position: center center;
 	    background-repeat: no-repeat;
 	    background-size: contain;
-	    opacity: 0.7;
-	}*/
-
-
-	#intro {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100vw;
-		height: 100vh;
-		z-index: 10;
+	    opacity: 0.7; /* Set the opacity value as needed */
 	}
 
-	#intro:before, #intro:after {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100vw;
-		height: 100vh;
-	}
 
-	/* This sets the image the overlay on the background */
-	#intro:before {
-		background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("images/overlay.png");
-		background-size: cover;
-		background-position: center, center;
-		background-repeat: no-repeat, no-repeat;
-		/* This sets the order of rendering. This will sit on top of all elements with z-index < 2 */
-		z-index: 2;
-	}
-
-	/* This sets the content of the actual background */
-	#intro:after {
-		/* We can change the background image here. */
-		background-image: url("images/jwst_image_5.jpeg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		/* This sets the order of rendering. This will sit behind all elements with z-index > 1 */
-		z-index: 1;
-	}
+		/* Define each image to be used in the grid */
+		/*#intro .image1 { background-image: url("images/a1689.jpg"); }*/
+		/*#intro .image2 { background-image: url("images/James-Webb-Space-Telescope-1.jpg"); }*/
+		/*#intro .image3 { background-image: url("images/Stephans-Quintet.jpg"); }*/
+		/*#intro .image4 { background-image: url("images/potm2209b.jpg"); }*/
+		/*#intro .image5 { background-image: url("images/1e0657.jpg"); }*/
 
 
 		#intro p {
