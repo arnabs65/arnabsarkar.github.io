@@ -3203,6 +3203,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
+		z-index: 10000; /* Arnab */
 	}
 
 		.wrapper > .inner {
