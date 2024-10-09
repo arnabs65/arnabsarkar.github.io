@@ -3380,27 +3380,27 @@ input, select, textarea {
 
 		/* Individual backgrounds for each section */
 		#intro.wrapper::before {
-		    background-image: url('assets/images/jwst_image_5.jpeg'); /* Path to your background image */
+		    background-image: url('images/jwst_image_5.jpeg'); /* Path to your background image */
 		    opacity: 0.5; /* Adjust opacity here */
 		}
 
 		#research.wrapper::before {
-		    background-image: url('assets/images/research_background.jpg');
+		    background-image: url('images/jwst_image_5.jpeg');
 		    opacity: 0.6;
 		}
 
 		#press.wrapper::before {
-		    background-image: url('assets/images/press_background.jpg');
+		    background-image: url('images/jwst_image_5.jpeg');
 		    opacity: 0.6;
 		}
 
 		#teaching.wrapper::before {
-		    background-image: url('assets/images/teaching_background.jpg');
+		    background-image: url('images/jwst_image_5.jpeg');
 		    opacity: 0.5;
 		}
 
 		#contact.wrapper::before {
-		    background-image: url('assets/images/contact_background.jpg');
+		    background-image: url('images/jwst_image_5.jpeg');
 		    opacity: 0.5;
 		}
 
