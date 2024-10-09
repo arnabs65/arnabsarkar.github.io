@@ -3240,9 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: black;
-			background-image: url('assets/images/jwst_image_5.jpeg'); /* Path to your background image */
-    		opacity: 0.5; /* Adjust opacity here */
+			background-color: #5e42a6;
 		}
 
 		.wrapper.style1-alt {
@@ -3364,6 +3362,62 @@ input, select, textarea {
 		body.is-preload .wrapper.fade > .inner {
 			opacity: 0;
 		}
+
+		/* Added by Arnab */
+		/* Background styling for each section */
+	.wrapper::before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    z-index: -1; /* Place the background behind the text */
+	    background-position: center center;
+	    background-size: cover;
+	    opacity: 0.4; /* Default opacity, customizable */
+		}
+
+		/* Individual backgrounds for each section */
+		#intro.wrapper::before {
+		    background-image: url('assets/images/jwst_image_5.jpeg'); /* Path to your background image */
+		    opacity: 0.5; /* Adjust opacity here */
+		}
+
+		#research.wrapper::before {
+		    background-image: url('assets/images/research_background.jpg');
+		    opacity: 0.6;
+		}
+
+		#press.wrapper::before {
+		    background-image: url('assets/images/press_background.jpg');
+		    opacity: 0.6;
+		}
+
+		#teaching.wrapper::before {
+		    background-image: url('assets/images/teaching_background.jpg');
+		    opacity: 0.5;
+		}
+
+		#contact.wrapper::before {
+		    background-image: url('assets/images/contact_background.jpg');
+		    opacity: 0.5;
+		}
+
+		/* Ensuring text content remains visible on top */
+		.wrapper .inner {
+		    position: relative;
+		    z-index: 1; /* Content will appear above the background image */
+		}
+
+		/* Ensuring sections are visually distinct */
+		.wrapper {
+		    position: relative;
+		    padding: 5em 2em;
+		    color: white;
+		    overflow: hidden; /* Ensures proper display */
+		}
+
 
 /* Header */
 
