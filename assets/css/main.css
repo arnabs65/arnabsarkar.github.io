@@ -3243,11 +3243,30 @@ input, select, textarea {
 			background-color: black;
 			height: 100vh;
 		    width: 100vw;
-		    background-image: url("images/jwst_image_5.jpg");
+		    background-image: url("images/jwst_image_5.jpeg");
 		    background-position: center center;
 		    background-repeat: no-repeat;
 		    background-size: contain;
 		    background-attachment: fixed;
+		}
+
+		/* Pseudo-element for the overlay */
+		.wrapper.style1::before {
+		    content: "";
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    background: black; /* Background color for the overlay */
+		    opacity: 0.6; /* Set the desired opacity level here */
+		    z-index: 1; /* Places overlay above the background image */
+		}
+
+		/* Ensuring content is above the overlay */
+		.wrapper.style1 .inner {
+		    position: relative;
+		    z-index: 2; /* Ensures the content appears above the overlay */
 		}
 
 		.wrapper.style1-alt {
