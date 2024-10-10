@@ -3248,7 +3248,7 @@ input, select, textarea {
 		    background-position: center center;
 		    background-repeat: no-repeat;
 		    background-size: contain;
-		    background-attachment: fixed; /* Keeps the image fixed during resizing */
+		    /* background-attachment: fixed; Keeps the image fixed during resizing */
 		}
 
 		.wrapper.style1-alt {
