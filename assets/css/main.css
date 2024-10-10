@@ -3240,11 +3240,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: black;
+			background-color: #5e42a6;
 			height: 100vh;
 		    width: 100vw;
-		    position: absolute;
-		    background-image: url("images/jwst_image_5_shaded.jpeg");
+		    background-image: url("images/jwst_image_5.jpeg");
 		    background-position: center center;
 		    background-repeat: no-repeat;
 		    background-size: contain;
