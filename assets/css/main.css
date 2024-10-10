@@ -3240,7 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #493382;
+			background-color: black;
 			height: 100vh;
 		    width: 100vw;
 		    position: absolute;
@@ -3248,7 +3248,6 @@ input, select, textarea {
 		    background-position: center center;
 		    background-repeat: no-repeat;
 		    background-size: contain;
-		    /* background-attachment: fixed; Keeps the image fixed during resizing */
 		}
 
 		.wrapper.style1-alt {
