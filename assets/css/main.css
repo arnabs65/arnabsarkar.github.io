@@ -3007,7 +3007,7 @@ input, select, textarea {
 			background-position: center center;
 			background-size: cover;
 			border: 1px solid #cccccc;
-			border-radius: 3px;
+			border-radius: 8px;
 			padding: 1em;
 			display: block;
 			position: relative;
@@ -3038,7 +3038,7 @@ input, select, textarea {
 			}
 
 		.spotlights > section > .content {
-			padding: 0em 5em 0em 5em ;
+			padding: 4em 5em 2em 5em ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
