@@ -3013,6 +3013,7 @@ input, select, textarea {
 			position: relative;
 			width: 15em;
 			height: 15em;
+			pointer-events: auto;
 		}
 
 			.spotlights > section > .image img {
