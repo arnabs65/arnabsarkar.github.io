@@ -2997,6 +2997,9 @@ input, select, textarea {
 		-ms-flex-direction: row;
 		flex-direction: row;
 		min-height: 22.5em;
+		border: 2px solid #cccccc;
+		border-radius: 3px;
+		padding: 1em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3006,9 +3009,6 @@ input, select, textarea {
 		.spotlights > section > .image {
 			background-position: center center;
 			background-size: cover;
-			border: 1px solid #cccccc;
-			border-radius: 3px;
-			padding: 1em;
 			display: block;
 			position: relative;
 			width: 15em;
@@ -3038,8 +3038,6 @@ input, select, textarea {
 
 		.spotlights > section > .content {
 			padding: 4em 5em 0em 5em ;
-			border: 1px solid #cccccc;
-			border-radius: 3px;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
