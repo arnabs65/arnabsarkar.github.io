@@ -3011,8 +3011,8 @@ input, select, textarea {
 			padding: 1em;
 			display: block;
 			position: relative;
-			width: 10em;
-			height: 10em;
+			width: 15em;
+			height: 15em;
 			pointer-events: auto;
 		}
 
@@ -3125,7 +3125,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 536px) {
 
 			.spotlights > section > .image {
 				height: 50vh;
