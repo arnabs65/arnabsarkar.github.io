@@ -3022,6 +3022,10 @@ input, select, textarea {
 			}
 
 			.spotlights > section > .image:before {
+				content: '';
+				display: none;
+				
+				/*
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
@@ -3035,6 +3039,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
+				*/
 			}
 
 		.spotlights > section > .content {
