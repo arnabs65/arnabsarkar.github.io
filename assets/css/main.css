@@ -3105,7 +3105,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 680px) {
 
 			.spotlights > section {
 				display: block;
@@ -3130,7 +3130,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 536px) {
 
 			.spotlights > section > .image {
 				height: 50vh;
