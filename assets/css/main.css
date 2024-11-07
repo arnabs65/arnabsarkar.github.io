@@ -3037,10 +3037,10 @@ input, select, textarea {
 			}
 
 		.spotlights > section > .content {
+			box-sizing: border-box;
 			padding: 4em 5em 0em 5em ;
 			border: 1px solid #cccccc;
 			border-radius: 3px;
-			padding: 1em;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
