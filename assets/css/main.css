@@ -3298,7 +3298,7 @@ input, select, textarea {
 		}
 
 		/* Ensuring content is above the overlay */
-		.wrapper.style1 .inner {
+		.wrapper.style2 .inner {
 		    position: relative;
 		    z-index: 2; /* Ensures the content appears above the overlay */
 		}
