@@ -3297,6 +3297,12 @@ input, select, textarea {
 		    z-index: 1; /* Places overlay above the background image */
 		}
 
+		/* Ensuring content is above the overlay */
+		.wrapper.style1 .inner {
+		    position: relative;
+		    z-index: 2; /* Ensures the content appears above the overlay */
+		}
+
 		.wrapper.style2-alt {
 			background-color: #3e4094;
 		}
