@@ -3315,6 +3315,13 @@ input, select, textarea {
 		    z-index: 2; /* Ensures the content appears above the overlay */
 		}
 
+		/* Images should appear above the overlay */
+		.wrapper.style2 img {
+   		position: relative; /* Make sure images can use z-index */
+    	z-index: 3; /* Ensures images are above the overlay */
+    	display: block;
+		}
+
 		.wrapper.style2-alt {
 			background-color: #3e4094;
 		}
