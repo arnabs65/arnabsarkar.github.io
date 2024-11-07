@@ -3259,7 +3259,7 @@ input, select, textarea {
 		    width: 100%;
 		    height: 100%;
 		    background: black; /* Background color for the overlay */
-		    opacity: 0.5; /* Set the desired opacity level here */
+		    opacity: 0.4; /* Set the desired opacity level here */
 		    z-index: 1; /* Places overlay above the background image */
 		}
 
@@ -3293,7 +3293,7 @@ input, select, textarea {
 		    width: 100%;
 		    height: 100%;
 		    background: black; /* Background color for the overlay */
-		    opacity: 0.5; /* Set the desired opacity level here */
+		    opacity: 0.4; /* Set the desired opacity level here */
 		    z-index: 1; /* Places overlay above the background image */
 		}
 
