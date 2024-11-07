@@ -3011,8 +3011,8 @@ input, select, textarea {
 			padding: 1em;
 			display: block;
 			position: relative;
-			width: 15em;
-			height: 15em;
+			width: 10em;
+			height: 10em;
 			pointer-events: auto;
 		}
 
