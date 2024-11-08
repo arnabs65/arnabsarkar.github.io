@@ -3015,9 +3015,9 @@ input, select, textarea {
 			padding: 1em;
 			display: block;
 			position: relative;
-			width: 10em;
-			height: 10em;
-			pointer-events: auto;
+			aspect-ratio: 16 / 9; /* Adjust aspect ratio as needed */
+    		width: 100%; /* Will scale with the screen size */
+   			height: auto; /* Maintain aspect ratio */
 		}
 
 			.spotlights > section > .image img {
