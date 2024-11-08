@@ -3000,7 +3000,7 @@ input, select, textarea {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: auto;
+		min-height: 22.5em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3010,14 +3010,10 @@ input, select, textarea {
 		.spotlights > section > .image {
 			background-position: center center;
 			background-size: cover;
-			border: 1px solid #cccccc;
-			border-radius: 8px;
-			padding: 1em;
+			border-radius: 0;
 			display: block;
 			position: relative;
-			aspect-ratio: 16 / 9; /* Adjust aspect ratio as needed */
-    		width: 100%; /* Will scale with the screen size */
-   			height: auto; /* Maintain aspect ratio */
+			width: 25em;
 		}
 
 			.spotlights > section > .image img {
@@ -3026,10 +3022,6 @@ input, select, textarea {
 			}
 
 			.spotlights > section > .image:before {
-				content: '';
-				display: none;
-				
-				/*
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
@@ -3043,7 +3035,6 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
-				*/
 			}
 
 		.spotlights > section > .content {
@@ -3061,7 +3052,6 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
-			height: 10em;
 			-ms-flex: 1;
 		}
 
@@ -3085,7 +3075,6 @@ input, select, textarea {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 
-		/*
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
 			opacity: 1;
@@ -3099,7 +3088,6 @@ input, select, textarea {
 			transform: translateX(-1em);
 			opacity: 0;
 		}
-		*/
 
 		@media screen and (max-width: 1680px) {
 
