@@ -3674,6 +3674,19 @@ input, select, textarea {
 				height: 100%;
 			}
 
+		
+		#sidebar img {
+		    display: block;
+		    position: absolute;
+		    left: 5%; /* Centers the image horizontally */
+		    top: 100px;
+		    width: 200px; /* Adjust as needed */
+		    height: 200px; /* Adjust as needed */
+		    border-radius: 50%; /* Makes the image circular */
+		    border: 0px solid #ffffff; /* Adjust color and width as needed */
+		}
+
+
 		#sidebar nav > ul {
 			list-style: none;
 			padding: 0;
