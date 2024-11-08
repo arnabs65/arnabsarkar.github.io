@@ -4066,7 +4066,7 @@ blockquote {
     font-family: Georgia, serif;
     font-size: 18px;
     font-style: italic;
-    width: 640px;
+    width: 100%;
     margin: 0.25em 0;
     padding: 0.35em 40px;
     line-height: 1.45;
@@ -4085,6 +4085,14 @@ blockquote:before {
     left: -20px;
     top: -20px;
     color: #7a7a7a;
+}
+
+@media (max-width: 768px) {
+    blockquote {
+        margin: 0.5em 0; /* Reduce margins on smaller screens */
+        padding: 0.5em; /* Adjust padding to fit smaller screens */
+        font-size: 0.9em; /* Reduce font size if necessary */
+    }
 }
 
 /*
