@@ -3254,6 +3254,36 @@ input, select, textarea {
 
 			}
 
+		.wrapper > .inner2 {
+			padding: 5em 5em 3em 5em ;
+			max-width: 100%;
+			width: 50em;
+		}
+
+			@media screen and (max-width: 1680px) {
+
+				.wrapper > .inner2 {
+					padding: 4em 1em 2em 2em ;
+				}
+
+			}
+
+			@media screen and (max-width: 1280px) {
+
+				.wrapper > .inner2 {
+					width: 100%;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.wrapper > .inner2 {
+					padding: 3em 2em 1em 2em ;
+				}
+
+			}
+
 		.wrapper.alt {
 			background-color: #261c3e;
 		}
@@ -3591,10 +3621,18 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 980px) {
+
+			#sidebar + #wrapper {
+				padding-top: 3.5em;
+			}
+
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#sidebar + #wrapper {
-				padding-top: 0;
+				padding-top: 3.5em;
 			}
 
 		}
@@ -3685,13 +3723,100 @@ input, select, textarea {
 		#sidebar img {
 		    display: block;
 		    position: absolute;
-		    left: 15%; /* Centers the image horizontally */
-		    top: 1vh;
-		    width: 150px; /* Adjust as needed */
-		    height: 150px; /* Adjust as needed */
-		    border-radius: 50%; /* Makes the image circular */
+		    left: 50%; /* Start from the center */
+		    transform: translateX(-50%); /* Move half of the image width to the left */
+		    top: 1vh; /* Adjust vertical position as needed */
+		    width: 100px; /* Base width */
+		    height: 100px; /* Base height */
+		    border-radius: 50%; /* Keeps the image circular */
 		    border: 0px solid #ffffff; /* Adjust color and width as needed */
 		}
+
+		/* Media query for larger screens */
+		@media screen and (min-width: 1280px) {
+		    #sidebar img {
+		        width: 110px; /* Responsive width for larger screens */
+		        height: 110px; /* Maintain aspect ratio */
+		    }
+		}
+
+		/* Media query for smaller screens */
+		@media screen and (max-width: 1280px) {
+		    #sidebar img {
+		    	left: 10%; /* Start from the center */
+		    	transform: translateX(-50%); /* Move half of the image width to the left */
+		        top: 0.5vh;
+		        width: 5vw; /* Responsive width for larger screens */
+		        height: 5vw; /* Maintain aspect ratio */
+		    }
+		}
+
+		/* Media query for smaller screens */
+		@media screen and (max-width: 768px) {
+		    #sidebar img {
+		        left: 10%; /* Start from the center */
+		    	transform: translateX(-50%); /* Move half of the image width to the left */
+		        width: 5vw; /* Responsive width for smaller screens */
+		        height: 5vw; /* Maintain aspect ratio */
+		    }
+		}
+
+
+		#sidebar-txt {
+		    position: absolute;
+		    top: calc(1vh + 140px); /* Position below the image with a 10px gap */
+		}
+
+		/* Adjust for different screen sizes */
+		@media screen and (min-width: 1280px) {
+		    #sidebar-txt {
+		        top: calc(1vh + 140px); /* Adjust to use 10vw for larger screens */
+		    }
+		}
+
+		@media screen and (max-width: 1280px) {
+		    #sidebar-txt {
+		        display: none; /* Adjust for smaller screens */
+		    }
+		}
+
+		@media screen and (max-width: 768px) {
+		    #sidebar-txt {
+		        display: none; /* Hide the text on smaller screens */
+		    }
+		}
+
+
+		#sidebar nav {
+		    position: absolute;
+		    top: calc(1vh + 320px); /* Adjust to position below #sidebar-txt */
+		    width:100%;
+		}
+
+		/* Adjust for different screen sizes */
+		@media screen and (min-width: 1280px) {
+		    #sidebar nav {
+		    	left: 50%; /* Start from the center */
+		    	transform: translateX(-50%); /* Move half of the image width to the left */
+		        top: calc(3vh + 320px); /* Adjust for larger screens */
+		    }
+		}
+
+		/* Adjust for smaller screens */
+		@media screen and (max-width: 1280px) {
+		    #sidebar nav {
+		        top: 0vh; /* Adjust for larger screens */
+		        left: 70%; /* Start from the center */
+		    	transform: translateX(-50%); /* Move half of the image width to the left */
+		    }
+		}
+
+		@media screen and (max-width: 768px) {
+		    #sidebar nav {
+		        display: none; /* Hide the nav on smaller screens */
+		    }
+		}
+
 
 
 		#sidebar nav > ul {
@@ -3869,7 +3994,7 @@ input, select, textarea {
 			font-size: 0.6em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
-			line-height: 1.75;
+			line-height: 1.25;
 			outline: 0;
 			padding: 1.35em 0;
 			position: relative;
@@ -3931,7 +4056,7 @@ input, select, textarea {
 
 			#sidebar {
 				height: 3.5em;
-				left: 0;
+				left: -1.5em;
 				line-height: 3.5em;
 				overflow: hidden;
 				padding: 0;
@@ -4135,6 +4260,8 @@ blockquote cite:before {
     font-size: 13px;
   }
 </style>
+
+
 
 
 
