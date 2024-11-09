@@ -3000,7 +3000,7 @@ input, select, textarea {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 15.5em;
+		min-height: 10.5em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3066,7 +3066,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			width: 100%;
 			-ms-flex: 1;
 		}
 
